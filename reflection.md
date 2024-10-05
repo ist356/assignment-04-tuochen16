@@ -22,4 +22,4 @@ Examples:
 **Best Reflection** "I learned when to use while vs for loops. While loops are for sentiel-controlled values (waiting for a condition to occur), vs for loops are for iterating over collections of fixed values."
 
 `--- Reflection Below This Line ---`
-I learned the .xlsx and pd.read_excel method.  
+I learned how to use Python's Pandas library to perform several basic, but very useful, data manipulation skills. I mastered how to get all the column names of a DataFrame, how to filter columns based on their data type, and also learned how to extract all the unique values of a particular column.
