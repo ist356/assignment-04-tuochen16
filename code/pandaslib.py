@@ -58,7 +58,7 @@ def load_file(file_path: str, ext: str) -> pd.DataFrame:
         return None
 
 if __name__ == '__main__': 
-    df = pd.DataFrame({ 
+    df = pd.DataFrame({  
         "name": ["Alice", "Bob", "Chris", "Dee", "Eddie", "Fiona"],
         "age": [25, 30, 35, 40, 45, 50],
         "state": ["NY", "PA", "NY", "NY", "PA", "NJ"],

@@ -5,7 +5,7 @@ import pandas as pd
 import streamlit as st
 import pandaslib as pl
 
-st.title("UniBrow")
+st.title("UniBrow") 
 st.caption("The Universal data browser")
 
 file = st.file_uploader("Upload a file:", type=["csv", "xlsx", "json"])
