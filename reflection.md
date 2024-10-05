@@ -22,4 +22,4 @@ Examples:
 **Best Reflection** "I learned when to use while vs for loops. While loops are for sentiel-controlled values (waiting for a condition to occur), vs for loops are for iterating over collections of fixed values."
 
 `--- Reflection Below This Line ---`
-I don't quite understand the function of this code, don't understand the .xlsx and pd.read_excel method.
+I don't  understand the function of this code, don't understand the .xlsx and pd.read_excel method. 

@@ -17,7 +17,11 @@ def get_columns_of_type(df : pd.DataFrame, numpy_type: any) -> list[str]:
     Return the column names of a pandas dataframe only when 
     the values in the column match the numpy_type
     '''
-    return [col for col in df.columns if df[col].dtype == numpy_type] 
+    columns = []
+    for col in df.columns:
+        if df[col].dtype == numpy_type:
+            columns.append(col)
+    return columns
       
 
 def get_unique_values(df : pd.DataFrame, column_name: str) -> list:
